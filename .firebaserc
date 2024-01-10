@@ -1,0 +1,36 @@
+{
+  "projects": {
+    "default": "websites-local-governments",
+    "staging": "websites-local-governments"
+  },
+  "targets": {
+    "its-my-town-stage": {
+      "hosting": {
+        "itsmytown-stage-dt1": [
+          "itsmytown-stage-dt1"
+        ],
+        "itsmytown-stage-pt1": [
+          "itsmytown-stage-pt1"
+        ],
+        "testing": [
+          "itsmytown-stage-testing"
+        ]
+      }
+    },
+    "its-my-town": {
+      "hosting": {
+        "baldwin-ga": [
+          "baldwin-ga"
+        ]
+      }
+    },
+    "websites-local-governments": {
+      "hosting": {
+        "baldwin-ga-gov": [
+          "baldwin-ga-gov"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
